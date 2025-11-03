@@ -1,0 +1,11 @@
+import { test, expect } from "@playwright/test";
+
+test("Sanity test - open site and navigate to login", async ({ page }) => {
+  await page.goto("http://training.skillo-bg.com:4300/posts/all");
+
+  await expect(page).toHaveURL("http://training.skillo-bg.com:4300/posts/all");
+
+  await page.click('a[href="/users/login"]');
+
+  await expect(page).toHaveURL("http://training.skillo-bg.com:4300/users/login");
+});

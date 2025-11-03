@@ -1,0 +1,29 @@
+{
+  "name": "cleverpine-qa-automation-academy-angela",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "playwright": "^1.56.1",
+    "playwright-core": "^1.56.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "eslint": "^9.39.0",
+    "prettier": "^3.6.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngangela42/cleverpine-qa-automation-academy-Angela.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngangela42/cleverpine-qa-automation-academy-Angela/issues"
+  },
+  "homepage": "https://github.com/ngangela42/cleverpine-qa-automation-academy-Angela#readme"
+}
