@@ -1,0 +1,7 @@
+node_modules/
+test-results/
+playwright-report/
+package-lock.json
+playwright/.cache/
+lectures/10-advanced-ui-interactions/pages/
+lectures/10-advanced-ui-interactions/test-files/
